@@ -30,7 +30,7 @@ class textsummarizerWrapper {
         this.baseURL = 'https://api.apiverve.com/v1/textsummarizer';
 
         // Validation rules for parameters (generated from schema)
-        this.validationRules = {"text":{"type":"string","required":true},"sentences":{"type":"number","required":false,"default":"3"}};
+        this.validationRules = {"text":{"type":"string","required":true,"maxLength":50000},"sentences":{"type":"number","required":false,"default":"3"}};
     }
 
     /**
