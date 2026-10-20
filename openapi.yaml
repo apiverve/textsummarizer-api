@@ -2,8 +2,10 @@ openapi: 3.0.4
 info:
   title: Text Summarizer
   description: >-
-    Text Summarizer is a simple tool for summarizing text. It returns a summary
-    of the text.
+    Text Summarizer condenses raw text into concise summaries of a specified
+    sentence count. Pass up to 5,000 characters to extract key points into
+    readable summaries, with paid plans adding word counts and reduction
+    metrics.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +20,7 @@ servers:
 paths:
   /v1/textsummarizer:
     post:
-      summary: Summarize Text
+      summary: Text Summarizer
       description: >-
         Summarize a body of text. Useful for generating summaries of articles,
         reports, and more.
