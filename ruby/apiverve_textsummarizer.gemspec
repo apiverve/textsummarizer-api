@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "apiverve_textsummarizer"
-  spec.version       = "1.2.5"
+  spec.version       = "1.2.6"
   spec.authors       = ["APIVerve"]
   spec.email         = ["hello@apiverve.com"]
 
   spec.summary       = "Text Summarizer API - Ruby Client"
-  spec.description   = "Text Summarizer condenses raw text into concise summaries of a specified sentence count. Pass up to 5,000 characters to extract key points into readable summaries, with paid plans adding word counts and reduction metrics."
+  spec.description   = "Text Summarizer condenses raw text into concise summaries of a specified sentence count. Pass up to 50,000 characters to extract key points into readable summaries, with paid plans adding word counts and summary-length metrics."
   spec.homepage      = "https://apiverve.com/marketplace/textsummarizer?utm_source=ruby&utm_medium=referral&utm_content=homepage"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
