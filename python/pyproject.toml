@@ -1,10 +1,10 @@
 [project]
 name = "apiverve-textsummarizer"
-version = "1.2.5"
+version = "1.2.6"
 authors = [
   { name="APIVerve", email="hello@apiverve.com" },
 ]
-description = "Text Summarizer condenses raw text into concise summaries of a specified sentence count. Pass up to 5,000 characters to extract key points into readable summaries, with paid plans adding word counts and reduction metrics."
+description = "Text Summarizer condenses raw text into concise summaries of a specified sentence count. Pass up to 50,000 characters to extract key points into readable summaries, with paid plans adding word counts and summary-length metrics."
 keywords = ["summarization api", "text summarization api", "text summarizer api", "text summary api", "summarize text"]
 readme = "README.md"
 requires-python = ">=3.9"

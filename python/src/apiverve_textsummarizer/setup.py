@@ -10,11 +10,11 @@ if os.path.exists(requirements_file):
 
 setup(
     name='apiverve_textsummarizer',
-    version='1.2.5',
+    version='1.2.6',
     packages=find_packages(),
     include_package_data=True,
     install_requires=install_requires,
-    description='Text Summarizer condenses raw text into concise summaries of a specified sentence count. Pass up to 5,000 characters to extract key points into readable summaries, with paid plans adding word counts and reduction metrics.',
+    description='Text Summarizer condenses raw text into concise summaries of a specified sentence count. Pass up to 50,000 characters to extract key points into readable summaries, with paid plans adding word counts and summary-length metrics.',
     author='APIVerve',
     author_email='hello@apiverve.com',
     url='https://apiverve.com/marketplace/textsummarizer?utm_source=pypi&utm_medium=referral&utm_content=homepage',
