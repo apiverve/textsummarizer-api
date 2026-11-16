@@ -11,7 +11,7 @@ namespace APIVerve.API.TextSummarizer
     public class TextSummarizerQueryOptions
     {
         /// <summary>
-        /// The text to summarize (up to 5000 characters)
+        /// The text to summarize (up to 50,000 characters)
         /// </summary>
         [JsonProperty("text")]
         public string Text { get; set; }

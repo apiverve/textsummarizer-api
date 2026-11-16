@@ -1,7 +1,7 @@
 Text Summarizer API
 ============
 
-Text Summarizer condenses raw text into concise summaries of a specified sentence count. Pass up to 5,000 characters to extract key points into readable summaries, with paid plans adding word counts and reduction metrics.
+Text Summarizer condenses raw text into concise summaries of a specified sentence count. Pass up to 50,000 characters to extract key points into readable summaries, with paid plans adding word counts and summary-length metrics.
 
 
 [![NuGet version](https://img.shields.io/nuget/v/APIVerve.API.TextSummarizer.svg)](https://www.nuget.org/packages/APIVerve.API.TextSummarizer)
